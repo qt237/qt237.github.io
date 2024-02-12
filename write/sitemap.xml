@@ -32,6 +32,26 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://qt237.github.io/write/tags/</loc>
+    <lastmod>2024-02-11T18:02:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://qt237.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="write"
+                href="https://qt237.github.io/write/tags/"
+                />
+  </url><url>
+    <loc>https://qt237.github.io/write/tags/test/</loc>
+    <lastmod>2024-02-11T18:02:38+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://qt237.github.io/write/blog/test/</loc>
     <lastmod>2024-02-11T18:02:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -59,20 +79,6 @@
                 rel="alternate"
                 hreflang="write"
                 href="https://qt237.github.io/write/categories/"
-                />
-  </url><url>
-    <loc>https://qt237.github.io/write/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://qt237.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="write"
-                href="https://qt237.github.io/write/tags/"
                 />
   </url>
 </urlset>
