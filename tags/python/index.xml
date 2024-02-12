@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>language on qt237的博客</title>
-    <link>https://qt237.github.io/language/</link>
-    <description>Recent content in language on qt237的博客</description>
+    <title>python on qt237的博客</title>
+    <link>https://qt237.github.io/tags/python/</link>
+    <description>Recent content in python on qt237的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://qt237.github.io/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://qt237.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python的元祖</title>
       <link>https://qt237.github.io/language/python02/</link>
@@ -35,16 +35,6 @@ players[-3:]：后三个元素
 players[:]：遍历整个切片
 关于赋值的一些问题 my_foods = [&amp;#39;pizza&amp;#39;, &amp;#39;falafel&amp;#39;, &amp;#39;carrot cake&amp;#39;] # 这行不通: friend_foods = my_foods my_foods.append(&amp;#39;cannoli&amp;#39;) friend_foods.append(&amp;#39;ice cream&amp;#39;) print(&amp;#34;My favorite foods are:&amp;#34;) print(my_foods) print(&amp;#34;\nMy friend&amp;#39;s favorite foods are:&amp;#34;) print(friend_foods) 得到两个一样的输出。这个时候想达到效果用切片：
 friend_foods = my_foods[:] my_foods.append(&amp;#39;cannoli&amp;#39;) friend_foods.append(&amp;#39;ice cream&amp;#39;) print(&amp;#34;My favorite foods are:&amp;#34;) print(my_foods) print(&amp;#34;\nMy friend&amp;#39;s favorite foods are:&amp;#34;) print(friend_foods) 切片的一种用法。</description>
-    </item>
-    
-    <item>
-      <title>test post</title>
-      <link>https://qt237.github.io/language/test/</link>
-      <pubDate>Sun, 11 Feb 2024 18:02:38 +0800</pubDate>
-      
-      <guid>https://qt237.github.io/language/test/</guid>
-      <description>Hello World hello world
-你好世界</description>
     </item>
     
   </channel>
