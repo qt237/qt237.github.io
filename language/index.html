@@ -139,16 +139,12 @@
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      python的元祖 元组看起来很像列表，但使用圆括号而非中括号来标识。定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。
-例如，如果有一个大小不应改变的矩形，可将其长度和宽度存储在一个元组中，从而确保它们是不能修改的。
-dimensions = (200, 50) print(dimensions[0]) print(dimensions[1]) 如果要定义只包含一个元素的元组，必须在这个元素后面加上逗号:
-my_t = (3,) 也可以像列表一样遍历，修改其中的具体的值。
-dem = (200, 500) print(dem) dem = (100, 300) print(dem) 除了不能改变大小和列表是一样的。
+      关于python的元祖的记录
     </div>
-    <a href="/language/python02/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/language/python02/"
+      class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
-
         </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
@@ -161,20 +157,12 @@ dem = (200, 500) print(dem) dem = (100, 300) print(dem) 除了不能改变大小
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      python的列表 list 列表我觉得是python里自己的很独特的一个数据结构。生成也很简单。应该空的列表。list = []很简单。python不像C++那样指定变量的类型。变量的定义和赋值都非常简单。列表也是一样的。
-list = [] list1 = [1,2,3] list2 = [&#39;hello&#39;,&#39;world&#39;] 很适合处理字符。
-关于列表的遍历，一个for循环就可以了。直接print列表的话，得到的是['hello','world']这样代[]的数据，遍历的话可以这样：
-lists = [&#39;hello&#39;,&#39;world&#39;] for list in lists: print(list) 列表的一部分：切片 要创建切片，可指定要使用的第一个元素和最后一个元素的索引。与函数range() 一样，Python在到达第二个索引之前的元素后停止。要输出列表中的前三个元素，需要指定索引0和3，这将返回索引为0、1和2的元素。
-players = [&#39;charles&#39;, &#39;martina&#39;, &#39;michael&#39;, &#39;florence&#39;, &#39;eli&#39;] print(players[0:3]) players[:3]：从0开始到第三个元素结束。
-players[-3:]：后三个元素
-players[:]：遍历整个切片
-关于赋值的一些问题 my_foods = [&#39;pizza&#39;, &#39;falafel&#39;, &#39;carrot cake&#39;] # 这行不通: friend_foods = my_foods my_foods.append(&#39;cannoli&#39;) friend_foods.append(&#39;ice cream&#39;) print(&#34;My favorite foods are:&#34;) print(my_foods) print(&#34;\nMy friend&#39;s favorite foods are:&#34;) print(friend_foods) 得到两个一样的输出。这个时候想达到效果用切片：
-friend_foods = my_foods[:] my_foods.append(&#39;cannoli&#39;) friend_foods.append(&#39;ice cream&#39;) print(&#34;My favorite foods are:&#34;) print(my_foods) print(&#34;\nMy friend&#39;s favorite foods are:&#34;) print(friend_foods) 切片的一种用法。
+      关于列表的一些记录
     </div>
-    <a href="/language/python01/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="/language/python01/"
+      class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
-
         </div>
       
     </section></article>
