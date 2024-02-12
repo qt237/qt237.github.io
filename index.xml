@@ -6,7 +6,30 @@
     <description>Recent content in qt237的code记录 on qt237的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Feb 2024 18:02:38 +0800</lastBuildDate><atom:link href="https://qt237.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://qt237.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python的元祖</title>
+      <link>https://qt237.github.io/language/python02/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python02/</guid>
+      <description>python的元祖 元组看起来很像列表，但使用圆括号而非中括号来标识。定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。
+例如，如果有一个大小不应改变的矩形，可将其长度和宽度存储在一个元组中，从而确保它们是不能修改的。
+dimensions = (200, 50) print(dimensions[0]) print(dimensions[1]) 如果要定义只包含一个元素的元组，必须在这个元素后面加上逗号:
+my_t = (3,) 也可以像列表一样遍历，修改其中的具体的值。
+dem = (200, 500) print(dem) dem = (100, 300) print(dem) 除了不能改变大小和列表是一样的。</description>
+    </item>
+    
+    <item>
+      <title>python的列表 list</title>
+      <link>https://qt237.github.io/language/python01/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python01/</guid>
+      <description>python的列表 list 列表我觉得是python里自己的很独特的一个数据结构。生成也很简单。应该空的列表。list = []很简单。python不像C++那样指定变量的类型。变量的定义和赋值都非常简单。列表也是一样的。
+list = [] list1 = [1,2,3] list2 = [&amp;#39;hello&amp;#39;,&amp;#39;world&amp;#39;] 很适合处理字符。</description>
+    </item>
+    
     <item>
       <title>test post</title>
       <link>https://qt237.github.io/base/test/</link>
