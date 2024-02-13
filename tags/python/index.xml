@@ -6,7 +6,17 @@
     <description>Recent content in python on qt237的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://qt237.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://qt237.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python的if,and,or</title>
+      <link>https://qt237.github.io/language/python03/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python03/</guid>
+      <description>if 一个简单的实例：
+cars = [&amp;#39;audi&amp;#39;, &amp;#39;bmw&amp;#39;, &amp;#39;subaru&amp;#39;, &amp;#39;toyota&amp;#39;] for car in cars: if car == &amp;#39;bmw&amp;#39;: print(car.upper()) elif car == &amp;#39;audi&amp;#39; print(car.lower()) else: print(car.title()) 判断条件 a == b #等于 a != b #不等于 a &amp;gt; b a &amp;lt; b a &amp;gt;= b a &amp;lt;= b (a &amp;gt; b) and (a = b) #与 (a &amp;gt; b) or (a = b) #或 cat in cats #返回True/False cat not in cats #返回True/False if cats #判断是不是空的列表 大概这样的，和C差不多不过有点区别。</description>
+    </item>
+    
     <item>
       <title>python的元祖</title>
       <link>https://qt237.github.io/language/python02/</link>
