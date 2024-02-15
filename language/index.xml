@@ -8,6 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://qt237.github.io/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>python的字典</title>
+      <link>https://qt237.github.io/language/python04/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python04/</guid>
+      <description>字典 字典是一系列的键值对，每个键值对是一个键和与键对应关联的值，可以通过访问键的形式来返回键对应的值。字典用{}来表示。
+alien = {} # 创建空字典 alien_0 = {&amp;#39;color&amp;#39;: &amp;#39;green&amp;#39;, &amp;#39;points&amp;#39;: 5} #创建非空字典 print(alien_0[&amp;#39;color&amp;#39;]) # 返回green alien_0[&amp;#39;x_position&amp;#39;] = 0 # 添加键值对 删除字典的键值对：
+del alien_0[&amp;#39;x_position&amp;#39;] 删除后值会永远消失，注意。
+使用get()来访问值 对比直接调用的好处是可以设置错误返回值，这样的话当不存在键值对和值等情况可以更好应对。
+alien_0 = {&amp;#39;color&amp;#39;: &amp;#39;green&amp;#39;, &amp;#39;speed&amp;#39;: &amp;#39;slow&amp;#39;} print(alien_0[&amp;#39;points&amp;#39;]) # 输出错误显示 KeyError: &amp;#39;points&amp;#39; 因为不存在points，所以报错了，程序不会正常启动。这种情况下，可以使用get()。
+方法get() 的第一个参数用于指定键，是必不可少的；第二个参数为指定的键不存在时要返回的值，是可选的，在不填的情况下默认返回None。在下文里会返回指定的参数：No point value assigned。
+alien_0 = {&amp;#39;color&amp;#39;: &amp;#39;green&amp;#39;, &amp;#39;speed&amp;#39;: &amp;#39;slow&amp;#39;} point_value = alien_0.get(&amp;#39;points&amp;#39;, &amp;#39;No point value assigned.&amp;#39;) print(point_value) 遍历字典 for循环来遍历字典里所有的键和值。
+user_0 = { &amp;#39;username&amp;#39;: &amp;#39;efermi&amp;#39;, &amp;#39;first&amp;#39;: &amp;#39;enrico&amp;#39;, &amp;#39;last&amp;#39;: &amp;#39;fermi&amp;#39;, } for key, value in user_0.</description>
+    </item>
+    
+    <item>
       <title>python的if,and,or</title>
       <link>https://qt237.github.io/language/python03/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
