@@ -8,6 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://qt237.github.io/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>python的类</title>
+      <link>https://qt237.github.io/language/python06/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python06/</guid>
+      <description>python的类 方法__init__() __init()__是一个特殊的类中的函数。每当根据类来创建实体的时候，Python都会自动调用它来完成构建。在此函数里，形参self 必不可少，而且必须位于其他形参的前面。如：
+class Dog: &amp;#34;&amp;#34;&amp;#34;一次模拟小狗的简单尝试。&amp;#34;&amp;#34;&amp;#34; def __init__(self, name, age): &amp;#34;&amp;#34;&amp;#34;初始化属性name和age。&amp;#34;&amp;#34;&amp;#34; self.name = name self.age = age self.color = &amp;#34;write&amp;#34; def sit(self): &amp;#34;&amp;#34;&amp;#34;模拟小狗收到命令时蹲下。&amp;#34;&amp;#34;&amp;#34; print(f&amp;#34;{self.name}is now sitting.&amp;#34;) def roll_over(self): &amp;#34;&amp;#34;&amp;#34;模拟小狗收到命令时打滚。&amp;#34;&amp;#34;&amp;#34; print(f&amp;#34;{self.name}rolled over!&amp;#34;) 生成一个实例mydog：
+mydog = Dog(name=&amp;#34;tom&amp;#34;, age=6) print(f&amp;#34;My dog&amp;#39;s name is {mydog.name}.&amp;#34;) my_dog.sit() my_dog.roll_over() 创建实例时，有些属性无须通过形参来定义，可在方法__init__() 中为其指定默认值。
+类的继承 在既有类的基础上编写新类时，通常要调用父类的方法__init__() 。这将初始化在父类__init__() 方法中定义的所有属性，从而让子类包含这些属性。
+父类Car：
+class Car: def __init__(self, make, model, year): self.make = make self.model = model self.year = year self.odometer_reading = 0 def get_description_name(self): long_name = f&amp;#34;{self.</description>
+    </item>
+    
+    <item>
       <title>python的函数</title>
       <link>https://qt237.github.io/language/python05/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
