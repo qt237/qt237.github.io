@@ -8,6 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://qt237.github.io/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>python的文件读取和异常</title>
+      <link>https://qt237.github.io/language/python07/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://qt237.github.io/language/python07/</guid>
+      <description>读取文件 我们创建一个test.txt，然后读取。
+with open(&amp;#34;test.txt&amp;#34;) as file_object: contents = file_object.read() print(contents) 要想读取任何一个文件，都需要先打开文件，才能访问它。open()返回一个表示文件text.txt的对象，python把对象赋值给file_object。在C里文件打开后，使用完成要关闭，不然会出现异常。python用上述结构，python会帮你关闭。
+注意相对路径和绝对路径的问题。
+open有两个参数，第二个可以指定以哪种模式打开。如果省略就是默认的只读模式。
+注意，with结构open返回的文件对象只在with代码块内可以使用，要在代码块外访问文件的内容，可以在with代码块内将文件的各行存储在一个列表里，在代码块外使用该列表。上文content也是一样的。
+with open(&amp;#34;test.txt&amp;#34;) as file_object: lines = file_object.readlines() for line in lines: print(line.rstrip()) 写入文件 open有两个参数，第二个可以指定以哪种模式打开。
+   参数 模式     r 读   w 写   a 附加   r+ 读写    w 在写入的时候，如果文件不存在，会创建文件。
+filename = &amp;#34;test.txt&amp;#34; with open(filename, &amp;#34;w&amp;#34;) as file_object: file_object.write(&amp;#34;Hello World!&amp;#34;) 注意： python只能将字符串写入文本文件，要将数值存储到txt文件里，必须要用函数str()，转换成字符串。
+写入多行的时候记得加换行符\n
+写入会覆盖源文件的内容。如果想要在后面附加内容，保留源文件的内容，那么选择以附加模式打开文件。</description>
+    </item>
+    
+    <item>
       <title>python的类</title>
       <link>https://qt237.github.io/language/python06/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
