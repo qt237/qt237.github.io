@@ -1,0 +1,55 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>所有文章 - qt237 的博客</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>所有文章 | qt237 的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>编程语言</title>
+  <link>http://localhost:1313/posts/code/language/</link>
+  <pubDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/code/language/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>blog</title>
+  <link>http://localhost:1313/posts/write/blog/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/write/blog/</guid>
+  <description><![CDATA[大概是博客]]></description>
+</item>
+<item>
+  <title>long</title>
+  <link>http://localhost:1313/posts/write/long/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/write/long/</guid>
+  <description><![CDATA[长篇挖坑地，希望有一天填完，也有填完的]]></description>
+</item>
+<item>
+  <title>shout</title>
+  <link>http://localhost:1313/posts/write/shout/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/write/shout/</guid>
+  <description><![CDATA[一篇完系列。]]></description>
+</item>
+<item>
+  <title>编程基础</title>
+  <link>http://localhost:1313/posts/code/base/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/code/base/</guid>
+  <description><![CDATA[这里用来放一些计算机的知识。]]></description>
+</item>
+<item>
+  <title>各种项目</title>
+  <link>http://localhost:1313/posts/code/object/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://localhost:1313/posts/code/object/</guid>
+  <description><![CDATA[项目的一些记录，大概会和工作有点关系，真正的生产力项目。]]></description>
+</item>
+</channel>
+</rss>
