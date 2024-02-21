@@ -4,52 +4,20 @@
     <link>http://example.org/posts/</link>
     <description>所有文章 | qt237 的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-  <title>编程语言</title>
-  <link>http://example.org/posts/code/language/</link>
+  <title></title>
+  <link>http://example.org/posts/code/</link>
   <pubDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</pubDate>
   <author>qt237</author>
-  <guid>http://example.org/posts/code/language/</guid>
+  <guid>http://example.org/posts/code/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
-  <title>blog</title>
-  <link>http://example.org/posts/write/blog/</link>
+  <title></title>
+  <link>http://example.org/posts/write/</link>
   <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
   <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/</guid>
-  <description><![CDATA[大概是博客]]></description>
-</item>
-<item>
-  <title>long</title>
-  <link>http://example.org/posts/write/long/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/long/</guid>
-  <description><![CDATA[长篇挖坑地，希望有一天填完，也有填完的]]></description>
-</item>
-<item>
-  <title>shout</title>
-  <link>http://example.org/posts/write/shout/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/shout/</guid>
-  <description><![CDATA[一篇完系列。]]></description>
-</item>
-<item>
-  <title>编程基础</title>
-  <link>http://example.org/posts/code/base/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/base/</guid>
-  <description><![CDATA[这里用来放一些计算机的知识。]]></description>
-</item>
-<item>
-  <title>各种项目</title>
-  <link>http://example.org/posts/code/object/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/object/</guid>
-  <description><![CDATA[项目的一些记录，大概会和工作有点关系，真正的生产力项目。]]></description>
+  <guid>http://example.org/posts/write/</guid>
+  <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

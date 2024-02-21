@@ -71,18 +71,18 @@
 </item>
 <item>
   <title>test post</title>
-  <link>http://example.org/posts/code/base/test/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/base/test/</guid>
-  <description><![CDATA[Hello Worldhello world 你好世界]]></description>
-</item>
-<item>
-  <title>test post</title>
   <link>http://example.org/posts/code/object/test/</link>
   <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
   <author>qt237</author>
   <guid>http://example.org/posts/code/object/test/</guid>
+  <description><![CDATA[Hello Worldhello world 你好世界]]></description>
+</item>
+<item>
+  <title>test post</title>
+  <link>http://example.org/posts/write/blog/test/</link>
+  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/test/</guid>
   <description><![CDATA[Hello Worldhello world 你好世界]]></description>
 </item>
 </channel>

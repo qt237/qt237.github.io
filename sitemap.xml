@@ -2,13 +2,14 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>http://example.org/posts/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/code/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/categories/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/tags/python/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/python08/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/categories/python%E5%85%A5%E9%97%A8/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/tags/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/tags/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/</loc><lastmod>2024-02-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/python07/</loc><lastmod>2024-02-18T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/python06/</loc><lastmod>2024-02-17T00:00:00&#43;00:00</lastmod></url><url>
@@ -17,17 +18,16 @@
       <loc>http://example.org/posts/code/language/python03/</loc><lastmod>2024-02-13T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/python01/</loc><lastmod>2024-02-12T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/language/python02/</loc><lastmod>2024-02-12T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/write/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/write/blog/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/posts/write/long/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/posts/write/shout/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/tags/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/posts/code/base/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/posts/code/object/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/posts/write/blog/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/posts/write/long/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/posts/write/shout/test/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/posts/code/base/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
       <loc>http://example.org/posts/code/object/</loc><lastmod>2024-02-11T18:02:38&#43;08:00</lastmod></url><url>
-      <loc>http://example.org/tags/strange-world/</loc><lastmod>2023-01-27T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-2/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/write/long/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/tags/strange-world/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-1%E5%BA%8F%E7%AB%A0/</loc><lastmod>2023-01-27T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/archived/</loc></url></urlset>
+      <loc>http://example.org/posts/code/base/</loc></url></urlset>
