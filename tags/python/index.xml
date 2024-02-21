@@ -1,70 +1,70 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Python - 标签 - qt237的博客</title>
-    <link>http://localhost:1313/tags/python/</link>
-    <description>Python - 标签 | qt237的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>Python - 标签 - qt237 的博客</title>
+    <link>http://example.org/tags/python/</link>
+    <description>Python - 标签 | qt237 的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/python/" rel="self" type="application/rss+xml" /><item>
   <title>python的测试</title>
-  <link>http://localhost:1313/post/language/python08/</link>
+  <link>http://example.org/posts/code/language/python08/</link>
   <pubDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python08/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python08/</guid>
   <description><![CDATA[测试用实例代码name_function.py def get_formatted_name(first, last, middle=&#34;&#34;): &#39;&#39;&#39;生成整洁的姓名&#39;&#39;&#39; if middle: full_name = f&#34;{first} {middle}]]></description>
 </item>
 <item>
   <title>python的文件读取和异常</title>
-  <link>http://localhost:1313/post/language/python07/</link>
+  <link>http://example.org/posts/code/language/python07/</link>
   <pubDate>Sun, 18 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python07/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python07/</guid>
   <description><![CDATA[读取文件我们创建一个test.txt，然后读取。 with open(&#34;test.txt&#34;) as file_object: contents = file_object.read() print(contents)要想读取任何一个文件，都需要先打开文件，才能访问]]></description>
 </item>
 <item>
   <title>python的类</title>
-  <link>http://localhost:1313/post/language/python06/</link>
+  <link>http://example.org/posts/code/language/python06/</link>
   <pubDate>Sat, 17 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python06/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python06/</guid>
   <description><![CDATA[python的类 方法__init__()__init()__是一个特殊的类中的函数。每当根据类来创建实体的时候，Python都会自动调用它来]]></description>
 </item>
 <item>
   <title>python的函数</title>
-  <link>http://localhost:1313/post/language/python05/</link>
+  <link>http://example.org/posts/code/language/python05/</link>
   <pubDate>Fri, 16 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python05/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python05/</guid>
   <description><![CDATA[python的函数def greet_user(username): &#34;&#34;&#34;显示简单的问候语。&#34;&#34;&#34; print(f&#34;Hello, {username.title()}!&#34;) greet_user(&#34;tom&#34;) greet_user(username=&#34;linda&#34;) def describe_pet(pet_name, animal_type=&#39;dog&#39;): &#34;&#34;&]]></description>
 </item>
 <item>
   <title>python的字典</title>
-  <link>http://localhost:1313/post/language/python04/</link>
+  <link>http://example.org/posts/code/language/python04/</link>
   <pubDate>Thu, 15 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python04/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python04/</guid>
   <description><![CDATA[字典字典是一系列的键值对，每个键值对是一个键和与键对应关联的值，可以通过访问键的形式来返回键对应的值。字典用{}来表示。 alien = {} # 创建空字典 alien_0]]></description>
 </item>
 <item>
   <title>python的if,and,or</title>
-  <link>http://localhost:1313/post/language/python03/</link>
+  <link>http://example.org/posts/code/language/python03/</link>
   <pubDate>Tue, 13 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python03/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python03/</guid>
   <description><![CDATA[if一个简单的实例： cars = [&#39;audi&#39;, &#39;bmw&#39;, &#39;subaru&#39;, &#39;toyota&#39;] for car in cars: if car == &#39;bmw&#39;: print(car.upper()) elif car == &#39;audi&#39; print(car.lower()) else: print(car.title()) 判断条件a == b #等于 a != b #不等于 a &gt; b a &lt; b a &gt;= b a &lt;= b (a &gt; b) and (a = b) #与]]></description>
 </item>
 <item>
   <title>python的列表 list</title>
-  <link>http://localhost:1313/post/language/python01/</link>
+  <link>http://example.org/posts/code/language/python01/</link>
   <pubDate>Mon, 12 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python01/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python01/</guid>
   <description><![CDATA[python的列表 list列表我觉得是python里自己的很独特的一个数据结构。生成也很简单。应该空的列表。list = []很简单。pytho]]></description>
 </item>
 <item>
   <title>python的元祖</title>
-  <link>http://localhost:1313/post/language/python02/</link>
+  <link>http://example.org/posts/code/language/python02/</link>
   <pubDate>Mon, 12 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>作者</author>
-  <guid>http://localhost:1313/post/language/python02/</guid>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python02/</guid>
   <description><![CDATA[python的元祖元组看起来很像列表，但使用圆括号而非中括号来标识。定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。 例如，如果有]]></description>
 </item>
 </channel>
