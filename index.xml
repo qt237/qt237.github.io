@@ -3,9 +3,17 @@
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>python的虚拟环境</title>
+  <link>http://example.org/posts/code/language/python09/</link>
+  <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python09/</guid>
+  <description><![CDATA[python的虚拟环境虚拟环境是我们创建的一个位置，我们在里面安装包，达成一个包的隔离。有助于项目分离和依赖控制。 python -m venv ll_env创建一个]]></description>
+</item>
+<item>
   <title>基督山伯爵摘录</title>
   <link>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</link>
   <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
   <author>qt237</author>
   <guid>http://example.org/posts/code/language/python02/</guid>
   <description><![CDATA[python的元祖元组看起来很像列表，但使用圆括号而非中括号来标识。定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。 例如，如果有]]></description>
-</item>
-<item>
-  <title>test post</title>
-  <link>http://example.org/posts/code/object/test/</link>
-  <pubDate>Sun, 11 Feb 2024 18:02:38 &#43;0800</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/object/test/</guid>
-  <description><![CDATA[Hello Worldhello world 你好世界]]></description>
 </item>
 </channel>
 </rss>

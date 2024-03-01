@@ -3,7 +3,15 @@
     <title>Python入门 - 分类 - qt237 的博客</title>
     <link>http://example.org/categories/python%E5%85%A5%E9%97%A8/</link>
     <description>Python入门 - 分类 | qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/python%E5%85%A5%E9%97%A8/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/python%E5%85%A5%E9%97%A8/" rel="self" type="application/rss+xml" /><item>
+  <title>python的虚拟环境</title>
+  <link>http://example.org/posts/code/language/python09/</link>
+  <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python09/</guid>
+  <description><![CDATA[python的虚拟环境虚拟环境是我们创建的一个位置，我们在里面安装包，达成一个包的隔离。有助于项目分离和依赖控制。 python -m venv ll_env创建一个]]></description>
+</item>
+<item>
   <title>python的测试</title>
   <link>http://example.org/posts/code/language/python08/</link>
   <pubDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</pubDate>
