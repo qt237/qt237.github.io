@@ -3,20 +3,20 @@
     <title>所有文章 - qt237 的博客</title>
     <link>http://example.org/posts/</link>
     <description>所有文章 | qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+  <title></title>
+  <link>http://example.org/posts/write/</link>
+  <pubDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
   <title></title>
   <link>http://example.org/posts/code/</link>
   <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
   <author>qt237</author>
   <guid>http://example.org/posts/code/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
-  <title></title>
-  <link>http://example.org/posts/write/</link>
-  <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/</guid>
   <description><![CDATA[]]></description>
 </item>
 </channel>
