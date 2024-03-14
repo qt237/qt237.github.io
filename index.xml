@@ -3,9 +3,17 @@
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>过年，过日子与过渡心理 费孝通</title>
+  <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
+  <pubDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</guid>
+  <description><![CDATA[我时常问自己：为什么我们中国人既不痛痛快快地活，却又不爽爽快快地死，不生不死地蛰伏着有什么意思？当我耳边听到大家在说“过年”时，才恍然领悟了]]></description>
+</item>
+<item>
   <title>《审判》摘录</title>
   <link>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</link>
   <pubDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
   <author>qt237</author>
   <guid>http://example.org/posts/code/language/python03/</guid>
   <description><![CDATA[if一个简单的实例： cars = [&#39;audi&#39;, &#39;bmw&#39;, &#39;subaru&#39;, &#39;toyota&#39;] for car in cars: if car == &#39;bmw&#39;: print(car.upper()) elif car == &#39;audi&#39; print(car.lower()) else: print(car.title()) 判断条件a == b #等于 a != b #不等于 a &gt; b a &lt; b a &gt;= b a &lt;= b (a &gt; b) and (a = b) #与]]></description>
-</item>
-<item>
-  <title>python的列表 list</title>
-  <link>http://example.org/posts/code/language/python01/</link>
-  <pubDate>Mon, 12 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/language/python01/</guid>
-  <description><![CDATA[python的列表 list列表我觉得是python里自己的很独特的一个数据结构。生成也很简单。应该空的列表。list = []很简单。pytho]]></description>
 </item>
 </channel>
 </rss>
