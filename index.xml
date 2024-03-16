@@ -3,9 +3,17 @@
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>生死场 萧红</title>
+  <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
+  <pubDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</guid>
+  <description><![CDATA[生死场 萧红母亲一向是这样，很爱护女儿，可是当女儿败坏了菜棵，母亲便去爱护菜棵了。农家无论是菜棵，或是一株茅草也要超过人的价值 在乡村，永久不晓]]></description>
+</item>
+<item>
   <title>过年，过日子与过渡心理 费孝通</title>
   <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
   <pubDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
   <author>qt237</author>
   <guid>http://example.org/posts/code/language/python04/</guid>
   <description><![CDATA[字典字典是一系列的键值对，每个键值对是一个键和与键对应关联的值，可以通过访问键的形式来返回键对应的值。字典用{}来表示。 alien = {} # 创建空字典 alien_0]]></description>
-</item>
-<item>
-  <title>python的if,and,or</title>
-  <link>http://example.org/posts/code/language/python03/</link>
-  <pubDate>Tue, 13 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/language/python03/</guid>
-  <description><![CDATA[if一个简单的实例： cars = [&#39;audi&#39;, &#39;bmw&#39;, &#39;subaru&#39;, &#39;toyota&#39;] for car in cars: if car == &#39;bmw&#39;: print(car.upper()) elif car == &#39;audi&#39; print(car.lower()) else: print(car.title()) 判断条件a == b #等于 a != b #不等于 a &gt; b a &lt; b a &gt;= b a &lt;= b (a &gt; b) and (a = b) #与]]></description>
 </item>
 </channel>
 </rss>
