@@ -3,9 +3,25 @@
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 05 Apr 2024 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>地海传奇摘录</title>
+  <link>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</link>
+  <pubDate>Fri, 05 Apr 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</guid>
+  <description><![CDATA[地海传奇 厄休拉·勒古恩唯静默，生言语； 唯黑暗，成光明； 唯死亡，得再生： 鹰扬虚空，灿兮明兮。 ——《伊亚创世歌》 等她发现达尼什么也不知道，却能镇]]></description>
+</item>
+<item>
+  <title>web 入门</title>
+  <link>http://example.org/posts/code/language/web_new/</link>
+  <pubDate>Wed, 20 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/web_new/</guid>
+  <description><![CDATA[网站的基本结构 index.html文件:包含主页内容，第一次点进网站显示的内容。 images文件夹：网站上使用的所有图片。 styles文件夹]]></description>
+</item>
+<item>
   <title>生死场 萧红</title>
   <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
   <pubDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -68,22 +84,6 @@
   <author>qt237</author>
   <guid>http://example.org/posts/code/language/python06/</guid>
   <description><![CDATA[python的类 方法__init__()__init()__是一个特殊的类中的函数。每当根据类来创建实体的时候，Python都会自动调用它来]]></description>
-</item>
-<item>
-  <title>python的函数</title>
-  <link>http://example.org/posts/code/language/python05/</link>
-  <pubDate>Fri, 16 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/language/python05/</guid>
-  <description><![CDATA[python的函数def greet_user(username): &#34;&#34;&#34;显示简单的问候语。&#34;&#34;&#34; print(f&#34;Hello, {username.title()}!&#34;) greet_user(&#34;tom&#34;) greet_user(username=&#34;linda&#34;) def describe_pet(pet_name, animal_type=&#39;dog&#39;): &#34;&#34;&]]></description>
-</item>
-<item>
-  <title>python的字典</title>
-  <link>http://example.org/posts/code/language/python04/</link>
-  <pubDate>Thu, 15 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/language/python04/</guid>
-  <description><![CDATA[字典字典是一系列的键值对，每个键值对是一个键和与键对应关联的值，可以通过访问键的形式来返回键对应的值。字典用{}来表示。 alien = {} # 创建空字典 alien_0]]></description>
 </item>
 </channel>
 </rss>
