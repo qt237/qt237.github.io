@@ -1,47 +1,56 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>读书摘录 - 标签 - qt237 的博客</title>
+    <title>读书摘录 on qt237 的博客</title>
     <link>http://example.org/tags/%E8%AF%BB%E4%B9%A6%E6%91%98%E5%BD%95/</link>
-    <description>读书摘录 - 标签 | qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 05 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AF%BB%E4%B9%A6%E6%91%98%E5%BD%95/" rel="self" type="application/rss+xml" /><item>
-  <title>地海传奇摘录</title>
-  <link>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</link>
-  <pubDate>Fri, 05 Apr 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</guid>
-  <description><![CDATA[地海传奇 厄休拉·勒古恩唯静默，生言语； 唯黑暗，成光明； 唯死亡，得再生： 鹰扬虚空，灿兮明兮。 ——《伊亚创世歌》 等她发现达尼什么也不知道，却能镇]]></description>
-</item>
-<item>
-  <title>生死场 萧红</title>
-  <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
-  <pubDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</guid>
-  <description><![CDATA[生死场 萧红母亲一向是这样，很爱护女儿，可是当女儿败坏了菜棵，母亲便去爱护菜棵了。农家无论是菜棵，或是一株茅草也要超过人的价值 在乡村，永久不晓]]></description>
-</item>
-<item>
-  <title>过年，过日子与过渡心理 费孝通</title>
-  <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
-  <pubDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</guid>
-  <description><![CDATA[我时常问自己：为什么我们中国人既不痛痛快快地活，却又不爽爽快快地死，不生不死地蛰伏着有什么意思？当我耳边听到大家在说“过年”时，才恍然领悟了]]></description>
-</item>
-<item>
-  <title>《审判》摘录</title>
-  <link>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</link>
-  <pubDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</guid>
-  <description><![CDATA[审判 卡夫卡卡夫卡的书，找到了两个翻译版本，会都看一下，本身是一本没有发表的草稿。 韩瑞祥 译罪过对法院存在着一股吸引力 不过，我一会儿就回来，然后]]></description>
-</item>
-<item>
-  <title>基督山伯爵摘录</title>
-  <link>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</link>
-  <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</guid>
-  <description><![CDATA[基督山伯爵 法 大仲马 周克希 译 “我的父亲！我的父亲在这儿？” “一点不错，”基督山回答说，“令尊大人，巴尔托洛梅奥·卡瓦尔坎蒂少校。” 惊恐的表情陡]]></description>
-</item>
-</channel>
+    <description>Recent content in 读书摘录 on qt237 的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/%E8%AF%BB%E4%B9%A6%E6%91%98%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>地海传奇摘录</title>
+      <link>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</guid>
+      <description>地海传奇 厄休拉·勒古恩 唯静默，生言语； 唯黑暗，成光明； 唯死亡，得再生： 鹰扬虚空，灿兮明兮。 ——《伊亚创世歌》 等她发现达尼什么也不知道，却能镇</description>
+    </item>
+    
+    <item>
+      <title>生死场 萧红</title>
+      <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</guid>
+      <description>生死场 萧红 母亲一向是这样，很爱护女儿，可是当女儿败坏了菜棵，母亲便去爱护菜棵了。农家无论是菜棵，或是一株茅草也要超过人的价值 在乡村，永久不晓</description>
+    </item>
+    
+    <item>
+      <title>过年，过日子与过渡心理 费孝通</title>
+      <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</guid>
+      <description>我时常问自己：为什么我们中国人既不痛痛快快地活，却又不爽爽快快地死，不生不死地蛰伏着有什么意思？当我耳边听到大家在说“过年”时，才恍然领悟了</description>
+    </item>
+    
+    <item>
+      <title>《审判》摘录</title>
+      <link>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</guid>
+      <description>审判 卡夫卡 卡夫卡的书，找到了两个翻译版本，会都看一下，本身是一本没有发表的草稿。 韩瑞祥 译 罪过对法院存在着一股吸引力 不过，我一会儿就回来，然后</description>
+    </item>
+    
+    <item>
+      <title>基督山伯爵摘录</title>
+      <link>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</guid>
+      <description>基督山伯爵 法 大仲马 周克希 译 “我的父亲！我的父亲在这儿？” “一点不错，”基督山回答说，“令尊大人，巴尔托洛梅奥·卡瓦尔坎蒂少校。” 惊恐的表情陡</description>
+    </item>
+    
+  </channel>
 </rss>
