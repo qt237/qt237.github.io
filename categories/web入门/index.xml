@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>web入门 on qt237 的博客</title>
+    <title>web入门 - 分类 - qt237 的博客</title>
     <link>http://example.org/categories/web%E5%85%A5%E9%97%A8/</link>
-    <description>Recent content in web入门 on qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/web%E5%85%A5%E9%97%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>web 入门</title>
-      <link>http://example.org/posts/code/language/web_new/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/web_new/</guid>
-      <description>网站的基本结构 index.html文件:包含主页内容，第一次点进网站显示的内容。 images文件夹：网站上使用的所有图片。 styles文件夹</description>
-    </item>
-    
-  </channel>
+    <description>web入门 - 分类 | qt237 的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 20 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/web%E5%85%A5%E9%97%A8/" rel="self" type="application/rss+xml" /><item>
+  <title>web 入门</title>
+  <link>http://example.org/posts/code/language/web_new/</link>
+  <pubDate>Wed, 20 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/web_new/</guid>
+  <description><![CDATA[网站的基本结构 index.html文件:包含主页内容，第一次点进网站显示的内容。 images文件夹：网站上使用的所有图片。 styles文件夹]]></description>
+</item>
+</channel>
 </rss>

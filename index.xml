@@ -1,200 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
-    <description>Recent content on qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <description>qt237 的博客</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate>
+      <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>俄罗斯方块SFML</title>
-      <link>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</guid>
-      <description>目的 看看整个开发的流程是如何的。 结构 需要一个结构来存储方块 int block[7][4] = {1, 3, 5, 7, // I字型 3, 5, 4, 6, // Z字型 2, 4, 5, 7, // S字型2 , 3, 5, 7, // L字型 3, 5, 7, 6, //</description>
-    </item>
-    
-    <item>
-      <title>地海传奇摘录</title>
-      <link>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</link>
-      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</guid>
-      <description>地海传奇 厄休拉·勒古恩 唯静默，生言语； 唯黑暗，成光明； 唯死亡，得再生： 鹰扬虚空，灿兮明兮。 ——《伊亚创世歌》 等她发现达尼什么也不知道，却能镇</description>
-    </item>
-    
-    <item>
-      <title>web 入门</title>
-      <link>http://example.org/posts/code/language/web_new/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/web_new/</guid>
-      <description>网站的基本结构 index.html文件:包含主页内容，第一次点进网站显示的内容。 images文件夹：网站上使用的所有图片。 styles文件夹</description>
-    </item>
-    
-    <item>
-      <title>生死场 萧红</title>
-      <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</guid>
-      <description>生死场 萧红 母亲一向是这样，很爱护女儿，可是当女儿败坏了菜棵，母亲便去爱护菜棵了。农家无论是菜棵，或是一株茅草也要超过人的价值 在乡村，永久不晓</description>
-    </item>
-    
-    <item>
-      <title>过年，过日子与过渡心理 费孝通</title>
-      <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
-      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</guid>
-      <description>我时常问自己：为什么我们中国人既不痛痛快快地活，却又不爽爽快快地死，不生不死地蛰伏着有什么意思？当我耳边听到大家在说“过年”时，才恍然领悟了</description>
-    </item>
-    
-    <item>
-      <title>《审判》摘录</title>
-      <link>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</guid>
-      <description>审判 卡夫卡 卡夫卡的书，找到了两个翻译版本，会都看一下，本身是一本没有发表的草稿。 韩瑞祥 译 罪过对法院存在着一股吸引力 不过，我一会儿就回来，然后</description>
-    </item>
-    
-    <item>
-      <title>python的虚拟环境</title>
-      <link>http://example.org/posts/code/language/python09/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python09/</guid>
-      <description>python的虚拟环境 虚拟环境是我们创建的一个位置，我们在里面安装包，达成一个包的隔离。有助于项目分离和依赖控制。 python -m venv ll_env 创建一个虚拟环境l</description>
-    </item>
-    
-    <item>
-      <title>基督山伯爵摘录</title>
-      <link>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</guid>
-      <description>基督山伯爵 法 大仲马 周克希 译 “我的父亲！我的父亲在这儿？” “一点不错，”基督山回答说，“令尊大人，巴尔托洛梅奥·卡瓦尔坎蒂少校。” 惊恐的表情陡</description>
-    </item>
-    
-    <item>
-      <title>python的测试</title>
-      <link>http://example.org/posts/code/language/python08/</link>
-      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python08/</guid>
-      <description>测试用实例代码 name_function.py def get_formatted_name(first, last, middle=&amp;#34;&amp;#34;): &amp;#39;&amp;#39;&amp;#39;生成整洁的姓名&amp;#39;&amp;#39;&amp;#39; if middle: full_name = f&amp;#34;{first} {middle} {last}&amp;#34; else: full_name = f&amp;#34;{first} {last}&amp;#34; return full_name.title() names.py from name_function import get_formatted_name print(&amp;#34;Enter &amp;#39;q&amp;#39;</description>
-    </item>
-    
-    <item>
-      <title>python的文件读取和异常</title>
-      <link>http://example.org/posts/code/language/python07/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python07/</guid>
-      <description>读取文件 我们创建一个test.txt，然后读取。 with open(&amp;#34;test.txt&amp;#34;) as file_object: contents = file_object.read() print(contents) 要想读取任何一个文件，都需要先打开文件，才能访问它。open()返回一个表示</description>
-    </item>
-    
-    <item>
-      <title>python的类</title>
-      <link>http://example.org/posts/code/language/python06/</link>
-      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python06/</guid>
-      <description>python的类 方法__init__() __init()__是一个特殊的类中的函数。每当根据类来创建实体的时候，Python都会自动调用它来</description>
-    </item>
-    
-    <item>
-      <title>python的函数</title>
-      <link>http://example.org/posts/code/language/python05/</link>
-      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python05/</guid>
-      <description>python的函数 def greet_user(username): &amp;#34;&amp;#34;&amp;#34;显示简单的问候语。&amp;#34;&amp;#34;&amp;#34; print(f&amp;#34;Hello, {username.title()}!&amp;#34;) greet_user(&amp;#34;tom&amp;#34;) greet_user(username=&amp;#34;linda&amp;#34;) def describe_pet(pet_name, animal_type=&amp;#39;dog&amp;#39;): &amp;#34;&amp;#34;&amp;#3</description>
-    </item>
-    
-    <item>
-      <title>python的字典</title>
-      <link>http://example.org/posts/code/language/python04/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python04/</guid>
-      <description>字典 字典是一系列的键值对，每个键值对是一个键和与键对应关联的值，可以通过访问键的形式来返回键对应的值。字典用{}来表示。 alien = {} # 创建空字典 alien_0</description>
-    </item>
-    
-    <item>
-      <title>python的if,and,or</title>
-      <link>http://example.org/posts/code/language/python03/</link>
-      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python03/</guid>
-      <description>if 一个简单的实例： cars = [&amp;#39;audi&amp;#39;, &amp;#39;bmw&amp;#39;, &amp;#39;subaru&amp;#39;, &amp;#39;toyota&amp;#39;] for car in cars: if car == &amp;#39;bmw&amp;#39;: print(car.upper()) elif car == &amp;#39;audi&amp;#39; print(car.lower()) else: print(car.title()) 判断条件 a == b #等于 a != b #不等于 a &amp;gt; b a &amp;lt; b a &amp;gt;= b a &amp;lt;= b (a &amp;gt; b) and (a = b) #与 (a</description>
-    </item>
-    
-    <item>
-      <title>python的列表 list</title>
-      <link>http://example.org/posts/code/language/python01/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python01/</guid>
-      <description>python的列表 list 列表我觉得是python里自己的很独特的一个数据结构。生成也很简单。应该空的列表。list = []很简单。python不像</description>
-    </item>
-    
-    <item>
-      <title>python的元祖</title>
-      <link>http://example.org/posts/code/language/python02/</link>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/code/language/python02/</guid>
-      <description>python的元祖 元组看起来很像列表，但使用圆括号而非中括号来标识。定义元组后，就可使用索引来访问其元素，就像访问列表元素一样。 例如，如果有</description>
-    </item>
-    
-    <item>
-      <title>test post</title>
-      <link>http://example.org/posts/code/object/test/</link>
-      <pubDate>Sun, 11 Feb 2024 18:02:38 +0800</pubDate>
-      
-      <guid>http://example.org/posts/code/object/test/</guid>
-      <description>Hello World hello world 你好世界</description>
-    </item>
-    
-    <item>
-      <title>test post</title>
-      <link>http://example.org/posts/write/blog/test/</link>
-      <pubDate>Sun, 11 Feb 2024 18:02:38 +0800</pubDate>
-      
-      <guid>http://example.org/posts/write/blog/test/</guid>
-      <description>“我的父亲！我的父亲在这儿？” “一点不错，”基督山回答说，“令尊大人，巴尔托洛梅奥·卡瓦尔坎蒂少校。” 惊恐的表情陡地从年轻人的眉宇间消失了。</description>
-    </item>
-    
-    <item>
-      <title>test post</title>
-      <link>http://example.org/posts/write/shout/test/</link>
-      <pubDate>Sun, 11 Feb 2024 18:02:38 +0800</pubDate>
-      
-      <guid>http://example.org/posts/write/shout/test/</guid>
-      <description>Hello World hello world 你好世界</description>
-    </item>
-    
-    <item>
-      <title>chapter2</title>
-      <link>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-2/</link>
-      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-2/</guid>
-      <description>星际航行与劫匪 宛如穿越漫长的隧道一样。无比的漆黑中，终于又浮现了微小的光点。 鹿目圆贴着玻璃，看着外边漆黑的宇宙景色。算不上多么的绮丽，更多感</description>
-    </item>
-    
-    <item>
-      <title>chapter1 序章</title>
-      <link>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-1%E5%BA%8F%E7%AB%A0/</link>
-      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-1%E5%BA%8F%E7%AB%A0/</guid>
-      <description>序章 人的悲伤多来自于，追求自身永远得不到的东西。倘若能放下，想必生活就会轻松许多吧。不过，正因为放不下，才显得残酷而可贵 so，drink your f</description>
-    </item>
-    
-  </channel>
+  <title>俄罗斯方块SFML</title>
+  <link>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</link>
+  <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</guid>
+  <description><![CDATA[目的看看整个开发的流程是如何的。 结构需要一个结构来存储方块 int block[7][4] = {1, 3, 5, 7, // I字型 3, 5, 4, 6, // Z字型 2, 4, 5, 7, // S字型2 , 3, 5, 7, // L字型 3, 5, 7, 6, //]]></description>
+</item>
+<item>
+  <title>地海传奇摘录</title>
+  <link>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</link>
+  <pubDate>Fri, 05 Apr 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E5%9C%B0%E6%B5%B7%E4%BC%A0%E5%A5%87/</guid>
+  <description><![CDATA[地海传奇 厄休拉·勒古恩唯静默，生言语； 唯黑暗，成光明； 唯死亡，得再生： 鹰扬虚空，灿兮明兮。 ——《伊亚创世歌》 等她发现达尼什么也不知道，却能镇]]></description>
+</item>
+<item>
+  <title>web 入门</title>
+  <link>http://example.org/posts/code/language/web_new/</link>
+  <pubDate>Wed, 20 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/web_new/</guid>
+  <description><![CDATA[网站的基本结构 index.html文件:包含主页内容，第一次点进网站显示的内容。 images文件夹：网站上使用的所有图片。 styles文件夹]]></description>
+</item>
+<item>
+  <title>生死场 萧红</title>
+  <link>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</link>
+  <pubDate>Sat, 16 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E7%94%9F%E6%AD%BB%E5%9C%BA/</guid>
+  <description><![CDATA[生死场 萧红母亲一向是这样，很爱护女儿，可是当女儿败坏了菜棵，母亲便去爱护菜棵了。农家无论是菜棵，或是一株茅草也要超过人的价值 在乡村，永久不晓]]></description>
+</item>
+<item>
+  <title>过年，过日子与过渡心理 费孝通</title>
+  <link>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</link>
+  <pubDate>Wed, 06 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E8%BF%87%E5%B9%B4%E8%BF%87%E6%97%A5%E5%AD%90%E4%B8%8E%E8%BF%87%E6%B8%A1%E5%BF%83%E7%90%86-%E8%B4%B9%E5%AD%9D%E9%80%9A/</guid>
+  <description><![CDATA[我时常问自己：为什么我们中国人既不痛痛快快地活，却又不爽爽快快地死，不生不死地蛰伏着有什么意思？当我耳边听到大家在说“过年”时，才恍然领悟了]]></description>
+</item>
+<item>
+  <title>《审判》摘录</title>
+  <link>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</link>
+  <pubDate>Tue, 05 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E5%AE%A1%E5%88%A4/</guid>
+  <description><![CDATA[审判 卡夫卡卡夫卡的书，找到了两个翻译版本，会都看一下，本身是一本没有发表的草稿。 韩瑞祥 译罪过对法院存在着一股吸引力 不过，我一会儿就回来，然后]]></description>
+</item>
+<item>
+  <title>python的虚拟环境</title>
+  <link>http://example.org/posts/code/language/python09/</link>
+  <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python09/</guid>
+  <description><![CDATA[python的虚拟环境虚拟环境是我们创建的一个位置，我们在里面安装包，达成一个包的隔离。有助于项目分离和依赖控制。 python -m venv ll_env创建一个]]></description>
+</item>
+<item>
+  <title>基督山伯爵摘录</title>
+  <link>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</link>
+  <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/write/blog/%E5%9F%BA%E7%9D%A3%E5%B1%B1%E4%BC%AF%E7%88%B5/</guid>
+  <description><![CDATA[基督山伯爵 法 大仲马 周克希 译 “我的父亲！我的父亲在这儿？” “一点不错，”基督山回答说，“令尊大人，巴尔托洛梅奥·卡瓦尔坎蒂少校。” 惊恐的表情陡]]></description>
+</item>
+<item>
+  <title>python的测试</title>
+  <link>http://example.org/posts/code/language/python08/</link>
+  <pubDate>Mon, 19 Feb 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python08/</guid>
+  <description><![CDATA[测试用实例代码name_function.py def get_formatted_name(first, last, middle=&#34;&#34;): &#39;&#39;&#39;生成整洁的姓名&#39;&#39;&#39; if middle: full_name = f&#34;{first} {middle}]]></description>
+</item>
+<item>
+  <title>python的文件读取和异常</title>
+  <link>http://example.org/posts/code/language/python07/</link>
+  <pubDate>Sun, 18 Feb 2024 00:00:00 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/language/python07/</guid>
+  <description><![CDATA[读取文件我们创建一个test.txt，然后读取。 with open(&#34;test.txt&#34;) as file_object: contents = file_object.read() print(contents)要想读取任何一个文件，都需要先打开文件，才能访问]]></description>
+</item>
+</channel>
 </rss>
