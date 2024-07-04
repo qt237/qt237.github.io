@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>所有编程基础 - qt237 的博客</title>
-    <link>http://example.org/posts/code/base/</link>
-    <description>所有编程基础 | qt237 的博客</description>
+    <title>C/C&#43;&#43;基础知识 - 分类 - qt237 的博客</title>
+    <link>http://example.org/categories/c/c&#43;&#43;%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+    <description>C/C&#43;&#43;基础知识 - 分类 | qt237 的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>qingtiansunnday@qq.com (qt237)</managingEditor>
-      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><lastBuildDate>Thu, 04 Jul 2024 04:39:07 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/code/base/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><atom:link href="http://example.org/categories/c/c&#43;&#43;%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" rel="self" type="application/rss+xml" /><item>
   <title>C/C&#43;&#43;编译过程</title>
   <link>http://example.org/posts/code/base/base_cpp/</link>
   <pubDate>Thu, 04 Jul 2024 04:39:07 &#43;0000</pubDate>

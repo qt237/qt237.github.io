@@ -4,9 +4,17 @@
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
     <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>qingtiansunnday@qq.com (qt237)</managingEditor>
-      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate>
+      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><lastBuildDate>Thu, 04 Jul 2024 04:39:07 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>C/C&#43;&#43;编译过程</title>
+  <link>http://example.org/posts/code/base/base_cpp/</link>
+  <pubDate>Thu, 04 Jul 2024 04:39:07 &#43;0000</pubDate>
+  <author>qt237</author>
+  <guid>http://example.org/posts/code/base/base_cpp/</guid>
+  <description><![CDATA[C/C++编译过程]]></description>
+</item>
+<item>
   <title>俄罗斯方块SFML</title>
   <link>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</link>
   <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>
@@ -77,14 +85,6 @@
   <author>qt237</author>
   <guid>http://example.org/posts/code/language/python08/</guid>
   <description><![CDATA[测试用实例代码name_function.py def get_formatted_name(first, last, middle=&#34;&#34;): &#39;&#39;&#39;生成整洁的姓名&#39;&#39;&#39; if middle: full_name = f&#34;{first} {middle}]]></description>
-</item>
-<item>
-  <title>python的文件读取和异常</title>
-  <link>http://example.org/posts/code/language/python07/</link>
-  <pubDate>Sun, 18 Feb 2024 00:00:00 &#43;0000</pubDate>
-  <author>qt237</author>
-  <guid>http://example.org/posts/code/language/python07/</guid>
-  <description><![CDATA[读取文件我们创建一个test.txt，然后读取。 with open(&#34;test.txt&#34;) as file_object: contents = file_object.read() print(contents)要想读取任何一个文件，都需要先打开文件，才能访问]]></description>
 </item>
 </channel>
 </rss>

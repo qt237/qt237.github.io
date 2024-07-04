@@ -5,29 +5,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>所有分类 - qt237 的博客</title><meta name="author" content="qt237">
+    <title>C/C&#43;&#43;编译过程 - qt237 的博客</title><meta name="author" content="qt237">
 <meta name="author-link" content="">
-<meta name="description" content="" /><meta itemprop="name" content="Categories">
-<meta itemprop="description" content=""><meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/categories/" />
+<meta name="description" content="C/C&#43;&#43;编译过程" /><meta name="keywords" content='C&#43;&#43;, C' /><meta itemprop="name" content="C/C&#43;&#43;编译过程">
+<meta itemprop="description" content="C/C&#43;&#43;编译过程"><meta itemprop="datePublished" content="2024-07-04T04:39:07+00:00" />
+<meta itemprop="dateModified" content="2024-07-04T04:39:07+00:00" />
+<meta itemprop="wordCount" content="266">
+<meta itemprop="keywords" content="C&#43;&#43;,C," /><meta property="og:title" content="C/C&#43;&#43;编译过程" />
+<meta property="og:description" content="C/C&#43;&#43;编译过程" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/code/base/base_cpp/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-04T04:39:07+00:00" />
+<meta property="article:modified_time" content="2024-07-04T04:39:07+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="C/C&#43;&#43;编译过程"/>
+<meta name="twitter:description" content="C/C&#43;&#43;编译过程"/>
 <meta name="application-name" content="FixIt">
 <meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="http://example.org/categories/" /><link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="qt237 的博客">
-  <link rel="feed" href="/categories/index.xml" type="application/rss+xml" title="qt237 的博客"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="http://example.org/posts/code/base/base_cpp/" /><link rel="prev" href="http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript></head>
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "C/C++编译过程",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/example.org\/posts\/code\/base\/base_cpp\/"
+    },"genre": "posts","keywords": "C\u002b\u002b, C","wordcount":  266 ,
+    "url": "http:\/\/example.org\/posts\/code\/base\/base_cpp\/","datePublished": "2024-07-04T04:39:07+00:00","dateModified": "2024-07-04T04:39:07+00:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "qt237"
+      },"description": "C/C++编译过程"
+  }
+  </script></head>
   <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
       <a href="/" title="qt237 的博客"><img loading="lazy" src="/images/tou.jpg" alt="qt237 的博客" data-title="qt237 的博客" class="logo" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/><span class="header-title-text">qt237的博客</span></a><span class="header-subtitle">一个随缘的生活和code记录blog</span></div>
     <nav>
-      <ul class="menu"><li class="menu-item active">
+      <ul class="menu"><li class="menu-item">
               <a
                 class="menu-link"
                 href="/categories/"
@@ -39,7 +60,7 @@
                 href="/tags/"
                 
                 
-              >标签</a></li><li class="menu-item has-children">
+              >标签</a></li><li class="menu-item active has-children">
               <a
                 class="menu-link"
                 href="/posts/code/"
@@ -57,7 +78,7 @@
                           
                         ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> 各种项目</a>
                       </li><li
-                        class="menu-item"
+                        class="menu-item active"
                       >
                         <a
                           class="menu-link"
@@ -152,7 +173,7 @@
               取消
             </a>
           </li><li
-              class="menu-item active"
+              class="menu-item"
             ><a
                   class="menu-link"
                   href="/categories/"
@@ -166,7 +187,7 @@
                   
                   
                 >标签</a></li><li
-              class="menu-item"
+              class="menu-item active"
             ><span class="nested-item">
                   <a
                     class="menu-link"
@@ -187,7 +208,7 @@
                           
                         ><i class="fa-brands fa-readme fa-fw fa-sm" aria-hidden="true"></i> 各种项目</a>
                       </li><li
-                        class="menu-item"
+                        class="menu-item active"
                       >
                         <a
                           class="menu-link"
@@ -253,51 +274,78 @@
   </div>
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-  </div><main class="container"><div class="page archive"><h1 class="single-title animate__animated animate__pulse animate__faster"><i class="fa-solid fa-folder-tree fa-fw me-1" aria-hidden="true"></i>所有分类 <sup>4</sup>
-    </h1><div class="categories-card"><div class="card-item">
-      <div class="card-item-wrapper">
-        <h2 class="card-item-title">
-          <a href='/categories/python%E5%85%A5%E9%97%A8/'><i class="fa-regular fa-folder fa-fw me-1" aria-hidden="true"></i>python入门 <sup>9</sup>
-          </a>
-        </h2><article class="archive-item">
-            <a href="/posts/code/language/python09/" class="archive-item-link">python的虚拟环境</a>
-          </article><article class="archive-item">
-            <a href="/posts/code/language/python08/" class="archive-item-link">python的测试</a>
-          </article><article class="archive-item">
-            <a href="/posts/code/language/python07/" class="archive-item-link">python的文件读取和异常</a>
-          </article><article class="archive-item">
-            <a href="/posts/code/language/python06/" class="archive-item-link">python的类</a>
-          </article><article class="archive-item">
-            <a href="/posts/code/language/python05/" class="archive-item-link">python的函数</a>
-          </article><span class="more-post">
-            <a href='/categories/python%E5%85%A5%E9%97%A8/' class="more-single-link">更多 >></a>
-          </span></div>
-    </div><div class="card-item">
-      <div class="card-item-wrapper">
-        <h2 class="card-item-title">
-          <a href='/categories/c/c&#43;&#43;%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/'><i class="fa-regular fa-folder fa-fw me-1" aria-hidden="true"></i>C/C&#43;&#43;基础知识 <sup>1</sup>
-          </a>
-        </h2><article class="archive-item">
-            <a href="/posts/code/base/base_cpp/" class="archive-item-link">C/C&#43;&#43;编译过程</a>
-          </article></div>
-    </div><div class="card-item">
-      <div class="card-item-wrapper">
-        <h2 class="card-item-title">
-          <a href='/categories/sfml/'><i class="fa-regular fa-folder fa-fw me-1" aria-hidden="true"></i>SFML <sup>1</sup>
-          </a>
-        </h2><article class="archive-item">
-            <a href="/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/" class="archive-item-link">俄罗斯方块SFML</a>
-          </article></div>
-    </div><div class="card-item">
-      <div class="card-item-wrapper">
-        <h2 class="card-item-title">
-          <a href='/categories/web%E5%85%A5%E9%97%A8/'><i class="fa-regular fa-folder fa-fw me-1" aria-hidden="true"></i>web入门 <sup>1</sup>
-          </a>
-        </h2><article class="archive-item">
-            <a href="/posts/code/language/web_new/" class="archive-item-link">web 入门</a>
-          </article></div>
-    </div></div>
-</div></main><footer class="footer">
+  </div><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>C/C&#43;&#43;编译过程</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      qt237</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/c/c++%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="post-category" title="分类 - C/C++基础知识"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> C/C++基础知识</a></span></div><div class="post-meta-line"><span title="发布于 2024-07-04 04:39:07"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-07-04">2024-07-04</time></span>&nbsp;<span title="266 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 300 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#总过程">总过程</a></li>
+    <li><a href="#预处理preprocessing">预处理（preprocessing）</a></li>
+    <li><a href="#编译compilation">编译（compilation）</a></li>
+    <li><a href="#汇编assemble">汇编（assemble）</a></li>
+    <li><a href="#链接linking">链接（linking）</a></li>
+    <li><a href="#all-in-one">ALL in One</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 id="总过程" class="heading-element">
+  <a href="#%e6%80%bb%e8%bf%87%e7%a8%8b" class="heading-mark"></a>总过程</h2><p>用到的工具称为toolchain套组，也就是工具链。</p>
+<p>总体过程</p>
+<ol>
+<li>预处理</li>
+<li>编译</li>
+<li>汇编</li>
+<li>链接</li>
+</ol>
+<h2 id="预处理preprocessing" class="heading-element">
+  <a href="#%e9%a2%84%e5%a4%84%e7%90%86preprocessing" class="heading-mark"></a>预处理（preprocessing）</h2><p>主要是把#代码行展开，包括宏和include等。得到*.i文件。</p>
+<h2 id="编译compilation" class="heading-element">
+  <a href="#%e7%bc%96%e8%af%91compilation" class="heading-mark"></a>编译（compilation）</h2><p>将上一步的文件进行编译，生成文本格式的平台相关的汇编代码。得到*.s文件</p>
+<h2 id="汇编assemble" class="heading-element">
+  <a href="#%e6%b1%87%e7%bc%96assemble" class="heading-mark"></a>汇编（assemble）</h2><p>将上一步的代码转换为二进制的机器码，得到*.o</p>
+<h2 id="链接linking" class="heading-element">
+  <a href="#%e9%93%be%e6%8e%a5linking" class="heading-mark"></a>链接（linking）</h2><p>将多个目标文件以及所需的库文件如.so等链接为最终的可执行文件。</p>
+<h2 id="all-in-one" class="heading-element">
+  <a href="#all-in-one" class="heading-mark"></a>ALL in One</h2><p>当然，我们现在用GCC进行编译的时候，只需要一行命令就完成了以上的过程。</p>
+<p><code>g++ hello.cpp -o hello</code></p>
+</div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="更新于 2024-07-04 04:39:07">更新于 2024-07-04&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://example.org/posts/code/base/base_cpp/" data-title="C/C&#43;&#43;编译过程" data-hashtags="C&#43;&#43;,C"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://example.org/posts/code/base/base_cpp/" data-hashtag="C&#43;&#43;"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://example.org/posts/code/base/base_cpp/" data-title="C/C&#43;&#43;编译过程"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/c&#43;&#43;/" class="post-tag" title="标签 - C&#43;&#43;">C&#43;&#43;</a><a href="/tags/c/" class="post-tag" title="标签 - C">C</a></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div>
+
+  <div class="post-nav"><a href="/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/" class="post-nav-item" rel="prev" title="俄罗斯方块SFML"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>俄罗斯方块SFML</a></div>
+</div>
+</article>
+
+  <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
     <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.111.3"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.1"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
@@ -307,5 +355,5 @@
     <div class="noscript-warning">FixIt 主题在启用 JavaScript 的情况下效果最佳。</div>
   </noscript>
 </div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false}};</script><script src="/js/theme.min.js" defer></script></body>
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false}};</script><script src="/js/theme.min.js" defer></script></body>
 </html>

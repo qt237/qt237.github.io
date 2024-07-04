@@ -2,14 +2,17 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>http://example.org/posts/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod><priority>0.8</priority></url><url>
-      <loc>http://example.org/posts/code/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod><priority>0.8</priority></url><url>
-      <loc>http://example.org/tags/c&#43;&#43;/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod><priority>1</priority></url><url>
+      <loc>http://example.org/posts/code/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod><priority>1</priority></url><url>
+      <loc>http://example.org/tags/c/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/code/base/base_cpp/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/tags/c&#43;&#43;/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/tags/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
+      <loc>http://example.org/posts/code/base/</loc><lastmod>2024-07-04T04:39:07&#43;00:00</lastmod></url><url>
       <loc>http://example.org/categories/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/tags/sfml/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/categories/sfml/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/tags/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/object/%E4%BF%84%E7%BD%97%E6%96%AF%E6%96%B9%E5%9D%97sfml/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/code/object/</loc><lastmod>2024-06-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/write/</loc><lastmod>2024-04-05T00:00:00&#43;00:00</lastmod><priority>0</priority></url><url>
@@ -44,4 +47,4 @@
       <loc>http://example.org/posts/write/long/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/tags/strange-world/</loc><lastmod>2024-02-20T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://example.org/posts/write/long/%E6%98%9F%E9%99%85chapter-1%E5%BA%8F%E7%AB%A0/</loc><lastmod>2023-01-27T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://example.org/posts/code/base/</loc></url></urlset>
+      <loc>http://example.org/categories/c/c&#43;&#43;%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc></url></urlset>
