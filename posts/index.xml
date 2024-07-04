@@ -3,7 +3,8 @@
     <title>所有文章 - qt237 的博客</title>
     <link>http://example.org/posts/</link>
     <description>所有文章 | qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>qingtiansunnday@qq.com (qt237)</managingEditor>
+      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
   <title></title>
   <link>http://example.org/posts/code/</link>
   <pubDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</pubDate>

@@ -3,7 +3,8 @@
     <title>qt237 的博客</title>
     <link>http://example.org/</link>
     <description>qt237 的博客</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>qingtiansunnday@qq.com (qt237)</managingEditor>
+      <webMaster>qingtiansunnday@qq.com (qt237)</webMaster><lastBuildDate>Thu, 20 Jun 2024 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
   <title>俄罗斯方块SFML</title>
